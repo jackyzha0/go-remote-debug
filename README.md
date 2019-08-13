@@ -1,7 +1,7 @@
 # Remote Debugging Containerized Go Applications
 #### A guide by Jacky Zhao
 
-Below is a quick, basic tutorial on how to use IntelliJ's Go plugin to debug
+Below is a quick, basic tutorial on how to use IntelliJ's Go plugin (or GoLand) to debug
 Go applications running in Docker containers. To do this, we build the containers
 with a tool called Delve, the Go debugger.
 
@@ -140,5 +140,4 @@ breakpoints.
 ![9](image_src/9.png) <br><br>
 ![10](image_src/10.png) <br><br>
 
-Enjoy remote debugging :) If you'd like to see a more complex example or would want to know how to use
-Envoy with this, check out this repo: https://github.hootops.com/internal-tools/social-gateway-front-proxy
+Enjoy remote debugging :)
